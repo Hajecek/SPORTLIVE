@@ -91,30 +91,16 @@ body{
 
 
   #datum-1{
-    position: absolute;right: 140px;top: 0px;
+    position: absolute;right: 60px;top: 0px;
     text-align: right;
     float: right;   
-    width: 50vw;
+    width: 80vw;
     height: 66px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-weight: 700;
     font-size: 18px;
-}
-
-#display-day{
-    position: absolute;top: 0px;right: 55px;float: right;
-    width: 50vw;
-    height: 66px;
-    display: flex;
-    padding-left: 0px;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: center;
-    font-weight: 900;
-    font-size: 20px;
-    color: rgb(204, 204, 204);
 }
 
 
@@ -202,38 +188,29 @@ body{
         
       }
 
-      .hodiny_datum{
+      .hodiny_den{
           position: absolute;width: 100%;top: 0;
+          height: auto;
+          display: flex;
+          justify-content: center;
       }
 
      
 
       #datum-1{
-          position: absolute;left: -15px;top: 0px;
-          text-align: right;
-          float: right;   
-          width: 50vw;
+          position: absolute;left: -24px;top: 0px; 
+          width: 100vw;
           height: 66px;
           display: flex;
-          justify-content: flex-end;
+          justify-content: center;
           align-items: center;
           font-weight: 700;
           font-size: 18px;
+          margin: 0;
+          padding: 0;
       }
       
-      #display-day{
-          position: absolute;top: 0px;right: 18px;float: left;
-          width: 50vw;
-          height: 66px;
-          display: flex;
-          padding-left: 10px;
-          justify-content: flex-start;
-          align-items: center;
-          text-align: left;
-          font-weight: 900;
-          font-size: 20px;
-          color: rgb(204, 204, 204);
-      }
+     
       /*pocet hracu a tymu na strance*/
       .soubory{
         position: absolute;top:55px;

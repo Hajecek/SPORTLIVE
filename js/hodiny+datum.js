@@ -11,7 +11,7 @@ var year = today.getFullYear();
 
 var d = new Date();
 var days = ["Neděle","Pondělí","Úterý","Středa","Čtvrtek","Pátek","Sobota"];
-document.getElementById("display-day").innerHTML = days[d.getDay()];
+
 
 if (day < 10) {
   day = '0' + day
@@ -22,7 +22,7 @@ if (month < 10) {
 
 var out = document.getElementById("datum-1");
 
-out.innerHTML =  day + "." + month + "." + year + " " + "," ;
+out.innerHTML =  day + "." + month + "." + year + " " + "," + "<span style='margin-left:5px;color:white'>" + days[d.getDay()] + "</span>";
 
 
 
