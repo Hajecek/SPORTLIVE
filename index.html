@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./logo.svg">
+    <link rel="shortcut icon" href="images/loading-logo/logo.svg">
 <!--css linky-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
@@ -16,14 +16,14 @@
 <body>
     
   <div id="loading">
-      <img src="./loading-test.svg" alt="">
+      <img src="images/loading-logo/loading-test.svg" alt="">
   </div>
 
 
 	<div class="wrapper d-flex align-items-stretch">
         <nav id="sidebar" class="animate__animated animate__fadeInLeft animate__delay-2s">
             <div class="p-4 pt-5">
-              <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(logo.svg);"></a>
+              <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/loading-logo/logo.svg);"></a>
         <ul class="list-unstyled components mb-5">
           <li class="active">
             <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><img style="width: 40px;height: 40px;margin-right: 20px;" src="./bar.png" alt="">Home</a>
@@ -199,24 +199,15 @@ Iste deleniti non expedita. Ut fugiat vero unde, harum placeat cumque repudianda
     <script src="js/hodiny+datum.js"></script>
     <script src="js/data.js"></script>
     <script src="js/loading.js"></script>
+    <script src="js/verze+hraci_tymy.js"></script>
 <!--javascript linky-->
+
+
+
+
 
 <!--scripty bokem-->
 
-<script text="VERZE">  
-var version_text = document.getElementById("version_text");
-version_text.innerHTML = "Verze:" + " " + version.Version
-</script>
-
-<script>
-  var hraci = document.querySelector('.nop');  
-  var hracclassa = document.getElementsByClassName("hrac");
-  var tymy = document.querySelector('.not');  
-  var tymclassa = document.getElementsByClassName("tym");
-
-  hraci.innerHTML= "Počet hráčů:" + " " +  "<span class='hraci_tymy'>"+ hracclassa.length+"</span>"
-  tymy.innerHTML= "Počet týmů:" + " " +  "<span class='hraci_tymy'>"+ tymclassa.length+"</span>"
-</script>
 <!--scripty bokem-->
 
 </html>
