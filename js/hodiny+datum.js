@@ -23,30 +23,3 @@ if (month < 10) {
 var out = document.getElementById("datum-1");
 
 out.innerHTML =  day + "." + month + "." + year + " " + "," + "<span style='margin-left:5px;color:white'>" + days[d.getDay()] + "</span>";
-
-
-
-
-
-
-
-
-
-	 
-	
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
