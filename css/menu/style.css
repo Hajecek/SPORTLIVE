@@ -8358,7 +8358,10 @@ top: 15px;
   margin-bottom: 20px;
   margin-top: 80px;
   -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); 
+  z-index: 99999;
+    background: rgb(71,69,85);
+}
 
 
 

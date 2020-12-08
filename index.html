@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/menu/style.css">
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/search.css">
 <!--css linky-->
     <title>SPORTLIVE</title>
 </head>
@@ -78,6 +79,7 @@
                         <div id="version_text">
                            <!--verze updatu-->
                         </div>
+                      
                         
         </div>
         <!--footer-->
@@ -92,14 +94,18 @@
     
 <div class="hledani">
   <div class="pozice-hledani">
-    <input placeholder='Hledej...TÝMY,HRÁČE' class='js-search' type="text" autocomplete="off">
+    <input placeholder='Hledej...TÝMY,HRÁČE' class='js-search' type="text" autocomplete="off" id="filter_users">
     <i class="fa fa-search"></i>
   </div>
+  <ul id="users-list"><img src="./bar.png" alt="">
+  
+  </ul>
 </div>
 
 <div class="soubory pocitac">
 <!--nop->numbers of player-->  <p class="nop">Počet hráčů:</p>
 <!--not->numbers of teams-->  <p class="not">Počet týmů:</p>
+
 </div>
 
 
@@ -195,12 +201,16 @@ Iste deleniti non expedita. Ut fugiat vero unde, harum placeat cumque repudianda
 <script src="js/menu/jquery.min.js"></script>
 <script src="js/menu/popper.js"></script>
 <script src="js/menu/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 <script src="js/menu/main.js"></script>
     <script src="js/reload.js"></script>
     <script src="js/hodiny+datum.js"></script>
     <script src="js/data.js"></script>
     <script src="js/loading.js"></script>
     <script src="js/verze+hraci_tymy.js"></script>
+    <script src="js/search.js"></script>
 <!--javascript linky-->
 
 

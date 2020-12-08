@@ -1,4 +1,4 @@
 var version = {
         Project: "SPORTLIVE",
-        Version: "0.3",   
+        Version: "0.4",   
 }

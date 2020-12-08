@@ -12,3 +12,5 @@ var tymclassa = document.getElementsByClassName("tym");
 
 hraci.innerHTML= "Počet hráčů:" + " " +  "<span class='hraci_tymy'>"+ hracclassa.length+"</span>"
 tymy.innerHTML= "Počet týmů:" + " " +  "<span class='hraci_tymy'>"+ tymclassa.length+"</span>"
+
+

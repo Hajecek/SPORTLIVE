@@ -1,4 +1,4 @@
-var el = document.getElementById('seconds'),
+/*var el = document.getElementById('seconds'),
     total = el.innerHTML,
     timeinterval = setInterval(function () {
         total = --total;
@@ -17,5 +17,5 @@ var el = document.getElementById('seconds'),
     }, 1000);
 
 
-
+*/
     

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nerko+One&display=swap');
+  
+  #users-list{
+    position: fixed;
+    width: 25vw;
+    height: 100vh;
+    top: 0%;
+    right: 0%;
+    margin:0;
+    padding:0;
+    background:rgba(42, 39, 60, 1);
+    color: white;
+    z-index: 800000;
+    font-size: 15px;
+    display: block;
+    border-left: 7px solid rgb(25, 23, 32);
+    overflow: scroll;
+    text-align: start;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+
+  }
+  
+  #users-list li a{
+    text-decoration:none;top: 0;
+    position: relative;
+    color:rgb(255, 255, 255);
+    
+    
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin: 8px;
+    height: auto;
+    
+}
+  
+  #users-list li{
+      position: relative;
+      border-bottom: 1.5px solid rgba(128, 128, 128, 0.418);
+      height: auto;
+    list-style:none;
+    padding:10px;
+    margin:0px 0;
+    display: block;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+.info{
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  margin-bottom: 5px;
+  width: 100vw;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.788)16;
+}
+
+.info img{
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  padding-top: 5px;
+}
+
+
+/************************ vyhledavani ***********************************/
+
+
+
+    /*fotbal*/
+  .fotbal-hrac{
+    border-left: 2px solid rgb(0, 139, 30);
+   padding: 10px;
+    border-radius: 50%;
+  }
+
+  .fotbal-tym{
+    border-left: 4px dashed rgb(0, 139, 30);
+   padding: 10px;
+    border-radius: 50%;
+  }
+    /*fotbal*/
+
+
+    /*hokej*/
+  .hokej-hrac{
+    border-left: 2px solid rgb(0, 140, 255);
+   padding: 10px;
+    border-radius: 50%;
+  }
+
+  .hokej-tym{
+    border-left: 4px dashed rgb(0, 140, 255);
+   padding: 10px;
+    border-radius: 50%;
+  }
+    /*hokej*/
+  
+
+
+
+/************************ vyhledavani ***********************************/
+
+
+  #users-list li:hover{
+    background: rgba(128, 128, 128, 0.377);
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+  transition: 0.2s;
+  }
+
+  #users-list li:hover a{
+    color: rgba(255, 57, 57, 0.753);
+  }
+
+.img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+small{
+    margin: 8px;
+    font-size: 11px;
+    color: rgba(245, 245, 245, 0.596);
+    
+}
+
+  .pozice{
+      position: absolute;right: 0;top: 0;
+      display: inline-block;
+      
+      height: 100%;
+      width: 180px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+  }
+
+  .narodnost{
+      height: 50%;
+      display: flex;
+      margin: auto;
+      align-items: center;
+  }
+
+.klub{
+    height: 50%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+
+  .img-fotka{
+      width: 80px;
+      height: 80px;
+      overflow: hidden;
+  }
+
+
+
+  @media (max-width:768px){
+
+    #users-list{
+      position: fixed;top: 5.3%;
+      width: 100vw;
+      height: 100vh;
+      margin:0;
+      padding:0;
+      background: black;
+      color: white;
+      z-index: 900;
+      font-size: 15px;
+    }
+
+    .pozice{
+      position: relative;
+      height: 100%;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    }
+  }
+
+
+
+/*laptop with hidpi */
+  @media (width:1440px),(height:900px){
+    #users-list{
+      width: 40vw;
+    }
+  }
+
+/*laptop with mdpi */
+  @media (width:1280px),(height:800px){
+    #users-list{
+      width: 40vw;
+    }
+  }
+  
