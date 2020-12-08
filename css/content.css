@@ -138,6 +138,56 @@ body{
     font-weight: 900;
 }
 
+.vsechny_sporty{
+    position: relative;top: -15px;
+    display: flex;
+   
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+
+.vsechny_sporty p{
+    display: inline;
+    margin: 10px;
+    padding: 0;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.vsechny_sporty .aktivni-f a{
+   border-bottom: 2px solid rgb(27, 133, 0);
+   color:  rgb(27, 133, 0);
+}
+
+.vsechny_sporty img{
+    width: 40px;
+    height: 40px;
+    position: absolute;top: 3px;left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+    z-index: -1;
+    }
+
+
+    .vsechny_sporty a{
+        color: white;
+        font-size: 15px;
+    }   
+
+
 
 
 @media (max-width: 991.98px){
