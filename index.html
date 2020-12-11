@@ -41,15 +41,11 @@
   <!------------------->
 
 
-          <li class="active">
-            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><img style="width: 40px;height: 40px;margin-right: 20px;" src="./bar.png" alt="">Home</a>
+          <li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><img style="width: 40px;height: 40px;margin-right: 20px;" src="./001.svg" alt="">La Liga<span class="zapasy" style="position: relative;left:30px;width: 108px;height: 20px;margin: 0%;padding-left: 10px;padding-right: 10px; font-size: 11px;color: rgb(255, 255, 255);background: rgb(160, 66, 66);border-radius: 15px;font-weight: 900;"></span></a>
             <ul class="collapse list-unstyled" id="homeSubmenu">
             <li>
-                <a href="#">Test<span style="position: relative;
-                  width: 150px;
-                  border: 2px dotted;
-                  margin: 29%;
-                  padding: 10px;">dasd</span> </a>
+                <a href="test.html"><img style="width: 40px;height: 40px;margin-right: 12px;" src="./bar.png" alt=""><small>FC</small>Barcelona <span class="zapasy" style="position: relative;left:10px;width: 108px;height: 20px;margin: 0%;padding-left: 10px;padding-right: 10px; font-size: 14px;color: rgb(255, 255, 255);background: rgb(255, 174, 0);border-radius: 15px;font-weight: 900;">2:2</span></a>
                 
             </li>
             <li>
@@ -126,8 +122,8 @@
 </div>
 
 <div class="soubory pocitac">
-<!--nop->numbers of player-->  <p class="nop">Počet hráčů:</p>
-<!--not->numbers of teams-->  <p class="not">Počet týmů:</p>
+<!--nop->numbers of player-->  <p class="nop">Počet hráčů: <span class='hraci_tymy'>15</span></p>
+<!--not->numbers of teams-->  <p class="not">Počet týmů: <span class='hraci_tymy'>15</span></p>
 
 </div>
 
@@ -241,6 +237,21 @@ Iste deleniti non expedita. Ut fugiat vero unde, harum placeat cumque repudianda
 
 
 <!--scripty bokem-->
+
+<script>
+
+
+
+var cislotest = document.querySelector(".zapasy");
+
+fetch('https://sportlive.glitch.me/zapasy/1').then(v => v.json()).then(data => {
+   console.log('data nacteny',data)
+   cislotest.innerHTML = data.domaci;
+});
+
+
+
+</script>
 
 <!--scripty bokem-->
 
